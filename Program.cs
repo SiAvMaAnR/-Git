@@ -29,6 +29,9 @@ namespace Обучение_Git
 			decimal fact = factorial(int.Parse(Console.ReadLine()), ref STR);
 			Console.WriteLine("Алгоритм: "+STR+fact);
 			Console.WriteLine();
+			Console.WriteLine();
+			Console.WriteLine();
+
 		}
 	}
 }
