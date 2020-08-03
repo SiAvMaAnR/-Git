@@ -24,14 +24,10 @@ namespace Обучение_Git
 
 		static void Main(string[] args)
 		{
-			string STR="";
+			string STR = "";
 			Console.Write("Факториал: ");
 			decimal fact = factorial(int.Parse(Console.ReadLine()), ref STR);
-			Console.WriteLine("Алгоритм: "+STR+fact);
-			Console.WriteLine();
-			Console.WriteLine();
-			Console.WriteLine();
-
+			Console.WriteLine("Алгоритм: " + STR + fact);
 		}
 	}
 }
