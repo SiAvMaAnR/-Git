@@ -22,7 +22,7 @@ namespace Обучение_Git
 		{
 			string STR="";
 			int N=int.Parse(Console.ReadLine());
-			Console.WriteLine(factorial(N,ref STR));
+			Console.WriteLine(factorial(N,ref STR));//comment
 		}
 	}
 }
